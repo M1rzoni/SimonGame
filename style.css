@@ -1,0 +1,51 @@
+:root {
+  --text-color: #ffc700;
+  --font: "Nabla", system-ui;
+  --background-color: #ff6969;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+  background-color: var(--background-color);
+}
+
+.main-container {
+  height: 100vh;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+.simon-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 30px;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.btn {
+  width: 180px;
+  height: 180px;
+  border: 7px solid black;
+  border-radius: 30px;
+}
+.g {
+  background-color: green;
+}
+.r {
+  background-color: red;
+}
+.y {
+  background-color: yellow;
+}
+.b {
+  background-color: blue;
+}
