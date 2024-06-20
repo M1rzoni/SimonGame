@@ -53,3 +53,7 @@
 .pressed {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 3px, rgb(51, 51, 51) 0px 0px 0px 7px;
 }
+
+.game-over {
+  background-color: red;
+}
